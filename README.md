@@ -26,40 +26,40 @@ A modular Python toolkit for automated processing and embedding of song lyrics, 
 ### Basic Installation
 
 ```bash
-pip install lyricflow
+!pip install git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[dev]
 ```
 
 ### With Optional Features
 
 ```bash
-# With lyrics fetching support (LRCLIB + Musixmatch)
-pip install lyricflow[fetch]
+# Lyrics fetching (LRCLIB + Musixmatch)
+pip install "git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[fetch]"
 
-# With interactive TUI
-pip install lyricflow[tui]
+# Interactive TUI
+pip install "git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[tui]"
 
-# With OpenAI API support
-pip install lyricflow[openai]
+# OpenAI support
+pip install "git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[openai]"
 
-# With Gemini API support
-pip install lyricflow[gemini]
+# Gemini support
+pip install "git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[gemini]"
 
-# With Whisper ASR support
-pip install lyricflow[whisper]
+# Whisper ASR
+pip install "git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[whisper]"
 
-# With FastAPI web service
-pip install lyricflow[api]
+# FastAPI service
+pip install "git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[api]"
 
 # Everything
-pip install lyricflow[all]
+pip install "git+https://github.com/MrViincciLeRoy/LyricFlow.git#egg=LyricFlow[all]"
+
 ```
 
 ### Development Installation
 
 ```bash
-git clone https://github.com/yourusername/lyricflow.git
-cd lyricflow
-pip install -e ".[dev]"
+!git clone https://github.com/MrViincciLeRoy/LyricFlow.git && cd LyricFlow && pip install -e ".[dev]"
+
 ```
 
 ## Quick Start
